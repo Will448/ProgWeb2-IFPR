@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Página Inicial</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 100px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 15px 25px;
+            margin: 10px;
+            font-size: 16px;
+            color: white;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 8px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Bem-vindo</h1>
+    <p>Escolha uma página:</p>
+
+    <a href="./aula1&3/index.php" class="btn">Ir para Página da aula 1 & 3</a>
+    <a href="./aula2/produtos.php" class="btn">Ir para Página da aula 2</a>
+    <a href="./aula4/formsArray.html" class="btn">Ir para Página da aula 4</a>
+    <a href="./desafioAgenda/index.php" class="btn">Ir para Página do desafio</a>
+    
+    
+</body>
+</html>

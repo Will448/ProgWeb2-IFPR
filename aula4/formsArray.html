@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Agenda de Contatos</title>
+
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+<div class="container mt-5">
+    <div class="card shadow">
+        <div class="card-header text-center">
+            <h3>Cadastro de Contato</h3>
+        </div>
+
+        <div class="card-body">
+            <form action="arrayAssociativo.php" method="post">
+                
+               <label for="inputAddress" class="form-label" required>Nome</label>
+               <input type="text" class="form-control" id="inputNome" name="inputNome" placeholder="Nome" required>
+
+              <label for="inputTelefone" class="form-label">Telefone</label>
+              <input type="text" class="form-control" id="inputTelefone" name="inputTelefone" placeholder="Telefone" maxlength="15" required>
+
+              <label for="inputEmail4" class="form-label" required>Email</label>
+              <input type="email" class="form-control" id="inputEmail" name="inputEmail" placeholder="Email" required>
+              <br>
+              <br>
+              <label for="inputAddress" class="form-label" required>Nome</label>
+               <input type="text" class="form-control" id="inputNome" name="inputNome1" placeholder="Nome1" required>
+
+              <label for="inputTelefone" class="form-label">Telefone</label>
+              <input type="text" class="form-control" id="inputTelefone" name="inputTelefone1" placeholder="Telefone1" maxlength="15" required>
+
+              <label for="inputEmail4" class="form-label" required>Email</label>
+              <input type="email" class="form-control" id="inputEmail" name="inputEmail1" placeholder="Email1" required>
+
+            <br>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                    <button type="reset" class="btn btn-secondary">Limpar</button>
+                    <button type="button" class="btn btn-info ml-2" onclick="window.location.href='../index.php'">Voltar para a página inicial</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
