@@ -5,7 +5,7 @@ class ContatoController {
 
     public function index() {
         // ✅ Extrai os contatos da sessão antes de carregar a view
-        $contatos = $_SESSION['contatos'] ?? [];
+        $contatos = $_SESSION['contatos'] ?? []; //faz a leitura dos contatos armazenados na sessão, ou retorna um array vazio se não houver nenhum contato cadastrado.
         require __DIR__ . "/../view/formulario.php";
     }
 
@@ -27,7 +27,7 @@ class ContatoController {
     }
 
     public function limpar() {
-        session_destroy();
+        session_destroy(); // session_unset(); // alternativa para limpar a sessão sem destruí-la completamente
         header("Location: /ProgWeb2/desafioAgenda/index.php");
         exit();
     }
