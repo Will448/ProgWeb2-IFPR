@@ -1,4 +1,4 @@
-# 👨‍🎓 Informações do Projeto
+#  Informações do Projeto
 
 Projeto desenvolvido para a disciplina de **Programação Web II**, ministrada pela professora **Amanda Spader**, no curso de **Sistemas de Informação** do **IFPR – Campus Palmas**.
 
