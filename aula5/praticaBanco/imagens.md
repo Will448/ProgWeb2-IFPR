@@ -1,3 +1,4 @@
-![Criação do banco](image.png)
-![Chave estrangeira](image-1.png)
-![Inserindo dados](image-2.png)
+![Criação do banco](Criação do banco.png)
+![Chave estrangeira](Chave estrangeira.png)
+![Inserindo dados](Inserindo dados.png)
+![Listagem de pessoas](Listagem de pessoas.png)
