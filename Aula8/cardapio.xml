@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<cardapio>
+    
+    <prato>
+        <codigo>CH001</codigo>
+        <nome>Picanha na Brasa</nome>
+        <descricao>Picanha bovina grelhada na churrasqueira, acompanhada de arroz, farofa e vinagrete.</descricao>
+        <valor>89.90</valor>
+    </prato>
+
+    <prato>
+        <codigo>CH002</codigo>
+        <nome>Costela Assada</nome>
+        <descricao>Costela bovina assada lentamente na brasa, servida com mandioca cozida e molho da casa.</descricao>
+        <valor>74.90</valor>
+    </prato>
+
+    <prato>
+        <codigo>CH003</codigo>
+        <nome>Espeto Misto</nome>
+        <descricao>Espeto com alcatra, linguiça e frango temperados, acompanhado de pão de alho e salada.</descricao>
+        <valor>39.90</valor>
+    </prato>
+
+</cardapio>
